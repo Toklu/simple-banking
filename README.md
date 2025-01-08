@@ -23,6 +23,8 @@
 
 #### Available Endpoints
 
+**A default account exists with account number `12345`.**
+
 - `GET /{accountNumber}`
     - Returns basic account info of given account number.
     - Provide `includeTransactions=true` query parameter to fetch related transactions info.
